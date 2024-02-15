@@ -9,7 +9,7 @@ public class Salary {
         // public static getSum(Employee[] employeeArray) {
         //     return ;
         // }
-//ghbdth
+//ghbdth=++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 }
 
 
