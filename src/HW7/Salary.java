@@ -5,10 +5,15 @@ public class Salary {
     String pref;
     int age;
     String sex;     
-    int salary;
-        // public static getSum(Employee[] employeeArray) {
-        //     return ;
-        // }
+    double salary;
+
+    static double getSum(Employee[] employeeArray) {
+        double result = 0.0;
+        for (int i = 0; i < employeeArray.length; i++) {
+            result += employeeArray[i].salary;
+        }
+        return result;
+    }
 }
 
 

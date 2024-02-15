@@ -7,8 +7,8 @@ public class Employee {
     String sex;     
     int salary;
 
-    public boolean isSameName(Employee employee) {
-        return this.name.equals(employee.name);
+    boolean isSameName(Employee otherEmployee) {
+        return name.equals(otherEmployee.name);
     }
 }
 
